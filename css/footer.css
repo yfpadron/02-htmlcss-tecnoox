@@ -1,0 +1,26 @@
+.login-footer {
+  color: var(--id-color);
+  padding: 0 1rem 0 1rem;
+}
+
+.login-footer a,
+.portal-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.link-list li {
+  margin: 0.75rem;
+}
+
+.footer-links {
+  display: flex;
+  flex: 0 1 100vh;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.portal-footer {
+  padding: 2rem;
+}

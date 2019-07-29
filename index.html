@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tecnoox</title>
+    <link rel="shortcut icon" href="/imgs/logo-icon.png" />
+    <link rel="stylesheet" href="/css/flaticon.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <div class="index-container">
+      <header class="login-header">
+        <div class="header-logo">
+          <h1>tecnoox</h1>
+        </div>
+      </header>
+
+      <main class="login-main" id="login-main">
+        <section class="login-form">
+          <form action="portal.html">
+            <h2>Inicia sesión</h2>
+            <div class="login-info">
+              <input
+                type="email"
+                id="username"
+                name="username"
+                required
+                placeholder="Dirección de correo electrónico"
+              />
+            </div>
+            <div class="login-info">
+              <input
+                type="password"
+                id="passwd"
+                name="passwd"
+                required
+                placeholder="Contraseña"
+              />
+            </div>
+            <div class="login-info">
+              <input
+                type="submit"
+                id="iniciarsesion"
+                name="iniciarsesion"
+                value="Iniciar sesión"
+              />
+            </div>
+            <div class="form-footer">
+              <div>
+                <input
+                  type="checkbox"
+                  id="remember-check"
+                  name="remember-check"
+                />
+                <label for="remember-check">Recuérdame</label>
+              </div>
+              <div>
+                <a href="#" id="help-passwd" class="help-passwd"
+                  >¿Olvidaste tu contraseña?</a
+                >
+              </div>
+            </div>
+            <div class="form-suscrip">
+              <a href="#"
+                ><i class="flaticon-facebook"></i> Iniciar sesión con Facebook
+              </a>
+              <p>
+                ¿Primera vez en tecnoox?
+                <a href="#" id="suscrip" class="suscrip">Suscríbete ya</a>
+              </p>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <footer class="login-footer">
+        <ul class="footer-links">
+          <li><a href="#">Términos de las tarjetas de regalo </a></li>
+          <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Declaración de privacidad</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

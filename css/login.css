@@ -1,0 +1,84 @@
+.index-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-header {
+  flex: 0 1 15%;
+  display: flex;
+  justify-content: left;
+}
+
+.login-main {
+  flex: 0 1 75%;
+}
+
+.login-footer {
+  flex: 0 1 10%;
+}
+
+.login-form {
+  min-width: 300px;
+  max-width: 450px;
+  margin: auto;
+  padding: 2rem;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  border: 0;
+  background: darkslategray;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: var(--id-color);
+}
+
+.form-footer {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: space-between;
+}
+
+.form-suscrip {
+  flex: 0 1 auto;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+@media (min-width: 567px) {
+  .index-container {
+
+    background: url(/imgs/OLO2ED0.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .login-form {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: var(--border-radius);
+  }
+}
