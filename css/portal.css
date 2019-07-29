@@ -1,0 +1,44 @@
+.portal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .portal-header {
+    flex: 0 1 15%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .portal-main {
+    flex: 0 1 75%;
+  }
+  
+  .portal-footer {
+    flex: 0 1 10%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    border: solid 1px red;
+  }
+
+  .estrenos-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 15px;
+    border: solid 1px red;
+  }
+
+  .recomendados {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 15px;
+    border: solid 1px red;
+  }
+
+  .recomendados h2 {
+    grid-column: 1/ -1;
+  }
