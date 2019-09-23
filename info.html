@@ -1,12 +1,697 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>tecnoox</title>
-</head>
-<body>
-    
-</body>
+    <link rel="shortcut icon" href="/imgs/logo-icon.png" />
+    <link rel="stylesheet" href="/css/flaticon.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/info.css" />
+  </head>
+  <body>
+    <div class="info-container">
+      <nav class="navbar">
+        <div class="header-logo">
+          <h1>tecnoox</h1>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item"><a href="portal.html#inicio">Inicio</a></li>
+          <li class="menu-item"><a href="portal.html#estrenos">Estrenos</a></li>
+          <li class="menu-item">
+            <a href="portal.html#recomendados">Recomendados</a>
+          </li>
+          <li class="menu-item">
+            <a href="portal.html#peliculas">Películas</a>
+          </li>
+          <li class="menu-item"><a href="portal.html#series">Series</a></li>
+          <li class="menu-item"><a href="portal.html#">Perfil</a></li>
+          <li class="menu-item"><a href="index.html">Salir</a></li>
+        </ul>
+      </nav>
+      <header class="info-header" id="inicio">
+        <div class="header-video">
+          <video
+            class="video-background"
+            poster="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
+            autoplay
+            muted
+            loop
+          >
+            <source
+              src="videos/Fast & Furious Presents Hobbs & Shaw (2019) - IMDb.mp4"
+              type="video/mp4"
+            />
+            <img
+              src="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
+              alt="Video no soportado"
+            />
+            Su navegador no soporta contenido multimedia.
+          </video>
+        </div>
+        <div class="detail-info">
+          <h2 itemprop="name">Fast & Furious: Hobbs & Shaw</h2>
+          <div class="info">
+            <div class="info-year">2019</div>
+            <div class="info-rating">8.5/10</div>
+            <div class="info-people">+16</div>
+            <div class="casting">
+              <ul
+                itemprop="actors"
+                itemscope
+                itemtype="http://schema.org/Person"
+              >
+                <li itemprop="name">Dwayne Johnson</li>
+                <li itemprop="name">Jason Statham</li>
+                <li itemprop="name">Idris Elba</li>
+              </ul>
+            </div>
+            <div class="movie-poster">
+              <img
+                src="imgs/films/fast&furious.jpg"
+                alt="Carátula de la película"
+                itemprop="image"
+              />
+            </div>
+            <div class="actions">
+              <a href="#" class="btn-play">Ver ahora</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="info-main" id="info-main">
+        <div class="grid-container">
+          <section class="estrenos" id="estrenos">
+            <h2 class="title-estrenos">Estrenos</h2>
+            <div class="estreno-container">
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/fast&furious.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Fast & Furious: Hobbs & Shaw</div>
+                      <div class="meta">
+                        <span class="rating">6/10</span>
+                        <span class="year">2019</span>
+                      </div>
+                      <div class="sinopsis">
+                        Lawman Luke Hobbs and outcast Deckard Shaw form an
+                        unlikely alliance when a cyber-genetically enhanced
+                        villain threatens the future of humanity.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/The Lion King.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">El rey león</div>
+                      <div class="meta">
+                        <span class="rating">7.2/10</span>
+                        <span class="year">2019</span>
+                      </div>
+                      <div class="sinopsis">
+                        After the murder of his father, a young lion prince
+                        flees his kingdom only to learn the true meaning of
+                        responsibility and bravery.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Avenger End Game.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Aladdin.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Toy History.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="estreno-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/spider-man.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="recomendados" id="recomendados">
+            <h2 class="title-estrenos">Recomendados</h2>
+            <div class="recomendados-container">
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/The informer.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Avatar.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/fast&furious.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Suits.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Avengers.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="recomendados-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Criminal minds.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="peliculas" id="peliculas">
+            <h2 class="title-estrenos">Películas</h2>
+            <div class="peliculas-container">
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Underworld.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/The Lion King.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Avengers.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/spider-man.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Aladdin.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="peliculas-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/films/Avatar.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="series" id="series">
+            <h2 class="title-estrenos">Series</h2>
+            <div class="series-container">
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/GOT.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Sherlock.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Criminal minds.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Supernatural.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/house.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+              <div class="series-info">
+                <article>
+                  <a href="">
+                    <div class="img">
+                      <img
+                        src="imgs/series/Suits.jpg"
+                        alt="Portada Frontend Imposible"
+                      />
+                    </div>
+                    <div class="info">
+                      <div class="title">Frontend Imposible</div>
+                      <div class="meta">
+                        <span class="rating">4.5/5</span>
+                        <span class="year">2017</span>
+                      </div>
+                      <div class="sinopsis">
+                        In eu placerat sapien. Fusce dictum non purus vel
+                        eleifend. Sed imperdiet sem nec ex vulputate
+                        ullamcorper.
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="portal-footer">
+        <ul class="footer-links">
+          <li><a href="#">Términos de las tarjetas de regalo </a></li>
+          <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Declaración de privacidad</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

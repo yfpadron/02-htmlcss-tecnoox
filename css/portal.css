@@ -5,7 +5,7 @@
 }
 
 .portal-header {
-  flex: 0 1 15%;
+  flex: 1 1 15%;
   display: flex;
   justify-content: left;
   padding: 25px;
@@ -24,6 +24,10 @@
   grid-template-columns: 1fr;
   grid-gap: 20px;
   padding: 1rem;
+}
+
+.estrenos {
+  padding-top: 50px;
 }
 
 .estreno-container,
