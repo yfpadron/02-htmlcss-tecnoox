@@ -21,7 +21,9 @@
         </div>
         <ul class="menu-list">
           <li class="menu-item"><a href="./portal.html#inicio">Inicio</a></li>
-          <li class="menu-item"><a href="./portal.html#estrenos">Estrenos</a></li>
+          <li class="menu-item">
+            <a href="./portal.html#estrenos">Estrenos</a>
+          </li>
           <li class="menu-item">
             <a href="portal.html#recomendados">Recomendados</a>
           </li>
@@ -60,15 +62,13 @@
             <div class="info-rating">8.5/10</div>
             <div class="info-people">+16</div>
             <div class="casting">
-              <ul
-                itemprop="actors"
-                itemscope
-                itemtype="http://schema.org/Person"
-              >
-                <li itemprop="name">Dwayne Johnson</li>
-                <li itemprop="name">Jason Statham</li>
-                <li itemprop="name">Idris Elba</li>
-              </ul>
+              <p>
+                Dwayne Johnson, Jason Statham, Idris Elba, Vanessa Kirby, Eiza
+                González, Eddie Marsan, Helen Mirren, Cliff Curtis, Joe Anoa'i,
+                Joshua Mauga, John Tui, Lori Pelenise Tuisano, Ryan Reynolds,
+                Rob Delaney, Kevin Hart, Stephanie Vogt, Viktorija Faith, David
+                Mumeni, Conlan Casal, Ruth Horrocks, Sonia Goswami.
+              </p>
             </div>
             <div class="actions">
               <a href="#" class="btn-play" value="Iniciar sesión">Ver ahora</a>
@@ -78,34 +78,27 @@
       </header>
 
       <main class="info-main" id="info-main">
-        <div class="grid-container">
-          <section class="estrenos" id="estrenos">
-            <h2 class="title-estrenos">Estrenos</h2>
-            <div class="estreno-container">
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/fast&furious.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Fast & Furious: Hobbs & Shaw</div>
-                      <div class="meta">
-                        <span class="rating">6/10</span>
-                        <span class="year">2019</span>
-                      </div>
-                      <div class="sinopsis">
-                        Lawman Luke Hobbs and outcast Deckard Shaw form an
-                        unlikely alliance when a cyber-genetically enhanced
-                        villain threatens the future of humanity.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
+        <div class="grid-containerinfo">
+          <article class="media-sinopsis" itemprop="description">
+            <p>
+              Desde que se cruzaron los caminos del agente Hobbs (Johnson), un
+              leal miembro de los servicios de Seguridad del Cuerpo Diplomático
+              estadounidense, y del solitario mercenario Shaw (Statham), ex
+              miembro de un cuerpo de élite del ejército británico, los
+              insultos, golpes y burlas no han cesado entre ellos para ver cuál
+              de los dos cae antes. Pero cuando un anarquista mejorado
+              ciber-genéticamente llamado Brixton (Elba) se hace con el control
+              de una peligrosa arma biológica, el mundo se enfrenta a una de sus
+              mayores amenazas. Cuando Shaw se entera de que además Brixton ha
+              derrotado a su hermana, una brillante e intrépida agente secreta
+              del M16 (Kirby), él y Hobbs no tendrán más remedio que dejar su
+              mortal enemistad a un lado para salvar el mundo y derrotar al
+              único hombre capaz de acabar con ellos.
+            </p>
+          </article>
+          <section class="Recomendado" id="recomendado">
+            <h2 class="title-estrenos">Recomendaciones</h2>
+            <div class="recomendado-container">
               <div class="estreno-info">
                 <article>
                   <a href="">
@@ -184,477 +177,6 @@
                     <div class="img">
                       <img
                         src="imgs/films/Toy History.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/spider-man.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-            </div>
-          </section>
-          <section class="recomendados" id="recomendados">
-            <h2 class="title-estrenos">Recomendados</h2>
-            <div class="recomendados-container">
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/The informer.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Avatar.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/fast&furious.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Suits.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Avengers.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="recomendados-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Criminal minds.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-            </div>
-          </section>
-          <section class="peliculas" id="peliculas">
-            <h2 class="title-estrenos">Películas</h2>
-            <div class="peliculas-container">
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Underworld.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/The Lion King.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Avengers.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/spider-man.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Aladdin.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="peliculas-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Avatar.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-            </div>
-          </section>
-          <section class="series" id="series">
-            <h2 class="title-estrenos">Series</h2>
-            <div class="series-container">
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/GOT.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Sherlock.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Criminal minds.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Supernatural.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/house.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="series-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/series/Suits.jpg"
                         alt="Portada Frontend Imposible"
                       />
                     </div>

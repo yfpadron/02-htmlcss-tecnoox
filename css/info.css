@@ -71,3 +71,21 @@
   color: white;
   background: var(--id-color);
 }
+
+.grid-containerinfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  padding: 1rem;
+}
+
+.recomendado-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.media-sinopsis {
+  padding: 10px;
+  text-align: justify;
+}
