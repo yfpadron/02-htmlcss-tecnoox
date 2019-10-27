@@ -59,7 +59,8 @@ form input[type="submit"] {
 .form-footer {
   display: flex;
   flex: 0 1 auto;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-suscrip {
@@ -68,9 +69,17 @@ form input[type="submit"] {
   text-align: center;
 }
 
+@media (min-width: 372px) {
+  .form-footer {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 @media (min-width: 567px) {
   .index-container {
-
     background: url(/imgs/OLO2ED0.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
