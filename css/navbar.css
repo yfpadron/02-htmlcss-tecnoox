@@ -6,6 +6,7 @@
   z-index: 1;
   display: flex;
   min-width: 320px;
+  height: 3.1rem;
 }
 
 .header-logo {
