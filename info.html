@@ -1,216 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>tecnoox</title>
-    <link rel="shortcut icon" href="/imgs/logo-icon.png" />
-    <link rel="stylesheet" href="/css/flaticon.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/portal.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/info.css" />
-  </head>
-  <body>
-    <div class="info-container">
-      <nav class="navbar">
-        <div class="header-logo">
-          <h1>tecnoox</h1>
-        </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>tecnoox</title>
+		<link rel="shortcut icon" href="/imgs/logo-icon.png" />
+		<link rel="stylesheet" href="/css/flaticon.css" />
+		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/portal.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/info.css" />
+	</head>
+	<body>
+		<div class="info-container">
+			<nav class="navbar">
+				<div class="header-logo">
+					<h1>tecnoox</h1>
+				</div>
+				<input type="checkbox" id="checkbox" class="checkbox" />
+				<label for="checkbox" class="navbar-burger"></label>
+				<ul class="menu-list">
+					<li class="menu-item"><a href="./portal.html#inicio">Inicio</a></li>
+					<li class="menu-item">
+						<a href="./portal.html#estrenos">Estrenos</a>
+					</li>
+					<li class="menu-item">
+						<a href="portal.html#recomendados">Recomendados</a>
+					</li>
+					<li class="menu-item">
+						<a href="portal.html#peliculas">Películas</a>
+					</li>
+					<li class="menu-item"><a href="./portal.html#series">Series</a></li>
+					<li class="menu-item"><a href="./info.html">Perfil</a></li>
+					<li class="menu-item"><a href="./index.html">Salir</a></li>
+				</ul>
+			</nav>
+			<header class="info-header" id="inicio">
+				<div class="header-video">
+					<video
+						class="video-background"
+						poster="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
+						autoplay
+						muted
+						loop
+					>
+						<source
+							src="videos/Fast & Furious Presents Hobbs & Shaw (2019) - IMDb.mp4"
+							type="video/mp4"
+						/>
+						<img
+							src="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
+							alt="Video no soportado"
+						/>
+						Su navegador no soporta contenido multimedia.
+					</video>
+				</div>
+				<div class="detail-info">
+					<h2 itemprop="name">Fast & Furious: Hobbs & Shaw</h2>
+					<div class="info-media">
+						<div class="info-year">2019</div>
+						<div class="info-rating">8.5/10</div>
+						<div class="info-people">+16</div>
+						<div class="casting">
+							<p>
+								Dwayne Johnson, Jason Statham, Idris Elba, Vanessa Kirby, Eiza
+								González, Eddie Marsan, Helen Mirren, Cliff Curtis, Joe Anoa'i,
+								Joshua Mauga, John Tui, Lori Pelenise Tuisano, Ryan Reynolds,
+								Rob Delaney, Kevin Hart, Stephanie Vogt, Viktorija Faith, David
+								Mumeni, Conlan Casal, Ruth Horrocks, Sonia Goswami.
+							</p>
+						</div>
+						<div class="actions">
+							<a href="#" class="btn-play" value="Iniciar sesión">Ver ahora</a>
+						</div>
+					</div>
+				</div>
+			</header>
 
-        <input type="checkbox" id="checkbox" class="checkbox" />
-        <label for="checkbox" class="navbar-burger"></label>
+			<main class="info-main" id="info-main">
+				<div class="grid-containerinfo">
+					<article class="media-sinopsis" itemprop="description">
+						<p>
+							Desde que se cruzaron los caminos del agente Hobbs (Johnson), un
+							leal miembro de los servicios de Seguridad del Cuerpo Diplomático
+							estadounidense, y del solitario mercenario Shaw (Statham), ex
+							miembro de un cuerpo de élite del ejército británico, los
+							insultos, golpes y burlas no han cesado entre ellos para ver cuál
+							de los dos cae antes. Pero cuando un anarquista mejorado
+							ciber-genéticamente llamado Brixton (Elba) se hace con el control
+							de una peligrosa arma biológica, el mundo se enfrenta a una de sus
+							mayores amenazas. Cuando Shaw se entera de que además Brixton ha
+							derrotado a su hermana, una brillante e intrépida agente secreta
+							del M16 (Kirby), él y Hobbs no tendrán más remedio que dejar su
+							mortal enemistad a un lado para salvar el mundo y derrotar al
+							único hombre capaz de acabar con ellos.
+						</p>
+					</article>
+					<section class="Recomendado" id="recomendado">
+						<h2 class="title-estrenos">Lo más visto</h2>
+						<div class="recomendado-container">
+							<div class="estreno-info">
+								<article>
+									<a href="./info.html">
+										<div class="img">
+											<img src="imgs/films/The Lion King.jpg" alt="Poster" />
+										</div>
+										<div class="info">
+											<div class="title">El rey león</div>
+											<div class="meta">
+												<span class="rating">7.2/10</span>
+												<span class="year">2019</span>
+											</div>
+											<div class="sinopsis">
+												After the murder of his father, a young lion prince
+												flees his kingdom only to learn the true meaning of
+												responsibility and bravery.
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="estreno-info">
+								<article>
+									<a href="./info.html">
+										<div class="img">
+											<img src="imgs/films/Avenger End Game.jpg" alt="Poster" />
+										</div>
+										<div class="info">
+											<div class="title">Avengers: Endgame</div>
+											<div class="meta">
+												<span class="rating">8.5/10</span>
+												<span class="year">2019</span>
+											</div>
+											<div class="sinopsis">
+												After the devastating events of Avengers: Infinity War
+												(2018), the universe is in ruins. With the help of
+												remaining allies, the Avengers assemble once more in
+												order to reverse Thanos' actions and restore balance to
+												the universe.
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="estreno-info">
+								<article>
+									<a href="./info.html">
+										<div class="img">
+											<img src="imgs/films/Aladdin.jpg" alt="Poster" />
+										</div>
+										<div class="info">
+											<div class="title">Aladdin</div>
+											<div class="meta">
+												<span class="rating">7.1/10</span>
+												<span class="year">2019</span>
+											</div>
+											<div class="sinopsis">
+												A kind-hearted street urchin and a power-hungry Grand
+												Vizier vie for a magic lamp that has the power to make
+												their deepest wishes come true.
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="estreno-info">
+								<article>
+									<a href="./info.html">
+										<div class="img">
+											<img src="imgs/films/Toy History.jpg" alt="Poster" />
+										</div>
+										<div class="info">
+											<div class="title">Toy Story 4</div>
+											<div class="meta">
+												<span class="rating">7.9/10</span>
+												<span class="year">2019</span>
+											</div>
+											<div class="sinopsis">
+												When a new toy called "Forky" joins Woody and the gang,
+												a road trip alongside old and new friends reveals how
+												big the world can be for a toy.
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
 
-        <ul class="menu-list">
-          <li class="menu-item"><a href="./portal.html#inicio">Inicio</a></li>
-          <li class="menu-item">
-            <a href="./portal.html#estrenos">Estrenos</a>
-          </li>
-          <li class="menu-item">
-            <a href="portal.html#recomendados">Recomendados</a>
-          </li>
-          <li class="menu-item">
-            <a href="portal.html#peliculas">Películas</a>
-          </li>
-          <li class="menu-item"><a href="./portal.html#series">Series</a></li>
-          <li class="menu-item"><a href="">Perfil</a></li>
-          <li class="menu-item"><a href="./index.html">Salir</a></li>
-        </ul>
-      </nav>
-      <header class="info-header" id="inicio">
-        <div class="header-video">
-          <video
-            class="video-background"
-            poster="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
-            autoplay
-            muted
-            loop
-          >
-            <source
-              src="videos/Fast & Furious Presents Hobbs & Shaw (2019) - IMDb.mp4"
-              type="video/mp4"
-            />
-            <img
-              src="imgs/video/vlcsnap-2019-07-31-22h33m40s110.png"
-              alt="Video no soportado"
-            />
-            Su navegador no soporta contenido multimedia.
-          </video>
-        </div>
-        <div class="detail-info">
-          <h2 itemprop="name">Fast & Furious: Hobbs & Shaw</h2>
-          <div class="info-media">
-            <div class="info-year">2019</div>
-            <div class="info-rating">8.5/10</div>
-            <div class="info-people">+16</div>
-            <div class="casting">
-              <p>
-                Dwayne Johnson, Jason Statham, Idris Elba, Vanessa Kirby, Eiza
-                González, Eddie Marsan, Helen Mirren, Cliff Curtis, Joe Anoa'i,
-                Joshua Mauga, John Tui, Lori Pelenise Tuisano, Ryan Reynolds,
-                Rob Delaney, Kevin Hart, Stephanie Vogt, Viktorija Faith, David
-                Mumeni, Conlan Casal, Ruth Horrocks, Sonia Goswami.
-              </p>
-            </div>
-            <div class="actions">
-              <a href="#" class="btn-play" value="Iniciar sesión">Ver ahora</a>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main class="info-main" id="info-main">
-        <div class="grid-containerinfo">
-          <article class="media-sinopsis" itemprop="description">
-            <p>
-              Desde que se cruzaron los caminos del agente Hobbs (Johnson), un
-              leal miembro de los servicios de Seguridad del Cuerpo Diplomático
-              estadounidense, y del solitario mercenario Shaw (Statham), ex
-              miembro de un cuerpo de élite del ejército británico, los
-              insultos, golpes y burlas no han cesado entre ellos para ver cuál
-              de los dos cae antes. Pero cuando un anarquista mejorado
-              ciber-genéticamente llamado Brixton (Elba) se hace con el control
-              de una peligrosa arma biológica, el mundo se enfrenta a una de sus
-              mayores amenazas. Cuando Shaw se entera de que además Brixton ha
-              derrotado a su hermana, una brillante e intrépida agente secreta
-              del M16 (Kirby), él y Hobbs no tendrán más remedio que dejar su
-              mortal enemistad a un lado para salvar el mundo y derrotar al
-              único hombre capaz de acabar con ellos.
-            </p>
-          </article>
-          <section class="Recomendado" id="recomendado">
-            <h2 class="title-estrenos">Recomendaciones</h2>
-            <div class="recomendado-container">
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/The Lion King.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">El rey león</div>
-                      <div class="meta">
-                        <span class="rating">7.2/10</span>
-                        <span class="year">2019</span>
-                      </div>
-                      <div class="sinopsis">
-                        After the murder of his father, a young lion prince
-                        flees his kingdom only to learn the true meaning of
-                        responsibility and bravery.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Avenger End Game.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Aladdin.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-              <div class="estreno-info">
-                <article>
-                  <a href="">
-                    <div class="img">
-                      <img
-                        src="imgs/films/Toy History.jpg"
-                        alt="Portada Frontend Imposible"
-                      />
-                    </div>
-                    <div class="info">
-                      <div class="title">Frontend Imposible</div>
-                      <div class="meta">
-                        <span class="rating">4.5/5</span>
-                        <span class="year">2017</span>
-                      </div>
-                      <div class="sinopsis">
-                        In eu placerat sapien. Fusce dictum non purus vel
-                        eleifend. Sed imperdiet sem nec ex vulputate
-                        ullamcorper.
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-            </div>
-          </section>
-        </div>
-      </main>
-
-      <footer class="portal-footer">
-        <ul class="footer-links">
-          <li><a href="#">Términos de las tarjetas de regalo </a></li>
-          <li><a href="#">Términos de uso</a></li>
-          <li><a href="#">Declaración de privacidad</a></li>
-        </ul>
-      </footer>
-    </div>
-  </body>
+			<footer class="portal-footer">
+				<ul class="footer-links">
+					<li><a href="#">Términos de las tarjetas de regalo </a></li>
+					<li><a href="#">Términos de uso</a></li>
+					<li><a href="#">Declaración de privacidad</a></li>
+				</ul>
+			</footer>
+		</div>
+	</body>
 </html>
